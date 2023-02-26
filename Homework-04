@@ -1,0 +1,4 @@
+  	SELECT FirstName,LastName,department,project_name,hours 
+   FROM employeetab,Project 
+   WHERE employeetab.emp_id=Project.employeeid group by emp_id;
+
