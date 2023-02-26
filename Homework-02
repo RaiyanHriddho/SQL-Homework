@@ -1,0 +1,3 @@
+ 	SELECT lastname, firstname 
+   FROM employeetab,Manager  
+   WHERE employeetab.manager_id=Manager.managerid and gender = "female" and employeetab.FirstName=Manager.Fname;
