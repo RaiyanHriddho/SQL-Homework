@@ -1,0 +1,5 @@
+   SELECT FirstName,LastName 
+   FROM employeetab,Manager 
+   WHERE employeetab.manager_id=Manager.managerid
+         and Manager.concat(Fname," ",Lname)="Franklin Wong";
+         
