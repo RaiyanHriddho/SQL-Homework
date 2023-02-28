@@ -1,0 +1,5 @@
+SELECT Last_name, Job_id, start_date
+
+FROM employees
+
+WHERE hired_date BETWEEN &#39;1998-Feb-20&#39; AND &#39;1998-May-01&#39; ORDER BY hired_date;
