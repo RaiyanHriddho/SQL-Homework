@@ -1,0 +1,4 @@
+SELECT last_name
+FROM employees
+WHERE last_name LIKE &#39;%a%&#39;
+AND last_name LIKE &#39;%e%&#39;;
